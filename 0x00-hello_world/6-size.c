@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the zixe of various types
- * Return: ) if exited properly, non-rero otherwise
+ * main - prints the sizes of data types in c
+ *
+ * Return: 0 if exited properly, non-rero otherwise
  */
 int main(void)
 {
