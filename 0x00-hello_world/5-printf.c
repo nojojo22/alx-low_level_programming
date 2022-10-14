@@ -1,11 +1,11 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * main - prints the phrase with proper grammar,
+ * main - print a c program using printf,
  * but the outcome is a piece of art,
  * Return: 0 if exited properly, noon-zero otherwise
  */
-int main (void)
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
