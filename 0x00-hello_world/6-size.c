@@ -4,7 +4,7 @@
  * main - prints the zixe of various types
  * Return: ) if exited properly, non-rero otherwise
  */
-int main (void)
+int main(void)
 {
 	printf("size of a char: %d byte(s)\n", sizeof(char));
 	printf("size of an int: %d byte(s)\n", sizeof(int));
