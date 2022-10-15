@@ -9,15 +9,16 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int ch;
 
-	printf("Lowercase English Alphabet:\n", n);
-	while (ch <= 'z')
-	{
-		printf("%c", ch);
-		ch++;
-	}
-	printf("\n");
+	clrsce();
 
+	printf(“Print lowercase English alphabet : \n”, n);
+	for (ch = ‘a’; ch <= ‘z’; ch++)
+		putchar(ch);
+
+		putchar (‘\n’);
+
+	getch();
 	return (0);
 }
