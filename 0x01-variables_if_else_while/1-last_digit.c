@@ -3,25 +3,28 @@
 #include <stdio.h>
 
 /**
- * main - print the last digit
- *
- * Return: Always 0
+ * main - Entry point
+ * Discription: checks on the last digit of the assigned var
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n;
-	int x;
+	int n, m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = n % 10;
-	printf("Last digit of %d is %d"' n, x);
-	if (x > 5)
-		printf("and is greater than 5");
-	if (x == 0)
-		printf("and is 0");
-	if (x < 6 && x != 0)
-		printf("and is less then 6 and not 0);
-	printf("\n");
+	m = n % 10;
+	if (m > 5)
+	{
+		printf("Last digit of %d is %d and is greatr than 5\n", n, m);
+	}
+	else if (m < 6 && m != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+	}
+	else
+	{
+		printf("Last digit of %d id %d and is 0\n", n, m);
+	}
 	return (0);
 }
