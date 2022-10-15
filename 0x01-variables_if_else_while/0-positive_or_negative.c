@@ -1,6 +1,9 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
+
 /**
  * main - print a random number and state whether
  * it is positive, negative, or zro
