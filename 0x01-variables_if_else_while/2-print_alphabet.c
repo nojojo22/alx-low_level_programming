@@ -13,9 +13,11 @@ int main(void)
 
 	clrsce();
 
-	printf(“Print lowercase English alphabet : \n”, n);
+	putchar(ch);
+	{
+		(“Print lowercase English alphabet : \n”, n);
+	}
 	for (ch = ‘a’; ch <= ‘z’; ch++)
-		putchar(ch);
 
 		putchar (‘\n’);
 
