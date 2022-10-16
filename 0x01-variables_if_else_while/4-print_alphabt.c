@@ -1,25 +1,20 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
- * main - Entry point
- * Discription: prints lowercase alphabets
- * Return: Always 0 (succes)
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (ch != 'e' && ch != "q')
-		{
-			putchar(ch);
-		}
-		else
-		{
-		}
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
+
 	putchar('\n');
 	return (0);
 }
