@@ -2,10 +2,9 @@
 
 /**
  * main - print _putchar
- * Discription: program that prints _putchar
- * Return: 0
+ * Discription: a program that prints _putchar
+ * Return: Always 0
  */
-
 int main(void)
 {
 	_putchar('_');

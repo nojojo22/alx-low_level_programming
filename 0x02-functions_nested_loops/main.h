@@ -1,5 +1,5 @@
-#ifindef MAIN_H
-#define MAIN_H
+#ifndef MAIN_H
+#define main_h
 int _putchar(char c)
 
 #endif
