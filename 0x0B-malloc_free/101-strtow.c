@@ -19,7 +19,7 @@ char **strtow(char *str)
 		return (NULL);
 
 	i = flag = len = 0;
-	i = flag = len = 0;
+	while (str[i])
 	{
 		if (flag == 0 && str[i] != ' ')
 			flag = 1;
