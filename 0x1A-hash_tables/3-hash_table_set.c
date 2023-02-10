@@ -62,7 +62,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			tmp->value = new_value;
 			return (1);
 		}
-		tmo = tmp->next;
+		tmp = tmp->next;
 	}
 	hash_node = make_hash_node(key, value);
 	if (hash_node == NULL)
